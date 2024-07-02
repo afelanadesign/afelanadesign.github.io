@@ -1,0 +1,73 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(169, 176, 233);
+    text-align: justify;
+}
+
+
+.box{
+    box-sizing: border-box;
+    margin: auto;
+    box-sizing: content-box;
+}
+.wrapper{
+    margin: auto;
+    padding: 70px;
+    height: 400px;
+    width: 600px;
+    border: 2px solid blueviolet;
+    border-radius: 15px;
+    background-color: hotpink;
+}
+img{
+    height: 600px;
+    position: absolute;
+    bottom: 250px;
+    right: 250px;
+
+}
+form {
+    width: 90vw;
+    max-width: 20em;
+  }
+  
+  button {
+    margin-top: 2rem;
+  }
+  
+  input {
+    border: 1px solid;
+    padding: 0.3em;
+    width: 100%;
+  }
+  
+  label {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .date-code {
+    display: flex;
+    margin: 0 -1em;
+  }
+  
+  .date-code div {
+    margin: 0 1em;
+  }
+  li{
+   
+        width: 500px;
+        border: 1px solid black;
+        display: contents;
+        text-align: justify;
+        width: 100%;
+        padding: 2px;
+        
+  }
+  

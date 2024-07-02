@@ -1,0 +1,19 @@
+<script type="text/javascript">
+$(function(){
+  $('#topnav ul li a').on('click', function(e){
+    e.preventDefault();
+    var current = $('#topnav ul li a.sel');
+    var newpg   = $(this).attr('href');
+    var oldpg   = current.attr('href');
+    
+    current.removeClass('sel');
+  я    $(oldpg).fadeOut(300, function(){
+      $(newpg).fadeIn(180);
+    });
+     $(this).addClass('sel');
+  });
+  $('#contactform').submit(function(e){
+    e.preventDefault();
+  });
+});
+</script>
